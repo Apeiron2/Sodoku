@@ -1,0 +1,40 @@
+#board{
+    width: 460px;
+    height: 460px;
+    margin: 20px;
+}
+#board input{
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+    border-spacing: 0;
+    border:1px solid rgb(209, 209, 209);
+    text-align: center;
+}
+.row1,.row4,.row7{
+  box-sizing: border-box;
+  border-top: 2px solid black !important;
+}
+.row9{
+  box-sizing: border-box;
+  border-bottom: 2px solid black !important;
+}
+.col1{
+  box-sizing: border-box;
+  border-left: 2px solid black !important;
+}
+.col3, .col6, .col9{
+  box-sizing: border-box;
+  border-right: 2px solid black !important;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.empty{
+  background-color: beige !important;
+}
+input:hover{
+  background-color: rgb(181, 229, 255) !important;
+}
