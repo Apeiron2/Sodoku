@@ -1,11 +1,12 @@
-#board{
-    width: 460px;
-    height: 460px;
+#puzzle{
+    display: block;
+    width: 360px;
+    height: 360px;
     margin: 20px;
 }
-#board input{
-    width: 50px;
-    height: 50px;
+input{
+    width: 40px;
+    height: 40px;
     box-sizing: border-box;
     border-spacing: 0;
     border:1px solid rgb(209, 209, 209);
@@ -33,7 +34,7 @@ input[type="number"]::-webkit-outer-spin-button {
   margin: 0;
 }
 .empty{
-  background-color: beige !important;
+  background-color: rgb(231, 231, 231) !important;
 }
 input:hover{
   background-color: rgb(181, 229, 255) !important;

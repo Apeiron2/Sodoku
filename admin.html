@@ -7,10 +7,15 @@
     <title>Admin</title>
   </head>
   <body>
-    <table id="board"></table>
-    <button onclick="reset_puzzle()">Reset</button>
-    <button onclick="export_puzzle()">Export</button>
+    <p id="script">Input puzzle:</p>
+    <table id="puzzle"></table>
+    <div style="display: inline-block" class="push_puzzle">
+      <button onclick="reset()" id="reset">Reset</button>
+      <button onclick="export_puzzle()" id="export_puzzle">
+        Export puzzle
+      </button>
+    </div>
     <script src="./admin_boardgame.js"></script>
-    <link rel="stylesheet" href="style_board.css" />
+    <link rel="stylesheet" href="./style_board.css" />
   </body>
 </html>
