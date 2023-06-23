@@ -20,7 +20,6 @@ main {
   width: 70px;
 }
 .logo {
-  background-image: url("../../style/img/login/logo.png");
   margin-left: 90px;
   margin-bottom: 20px;
 }
@@ -75,7 +74,7 @@ label + input {
   margin: 10px;
 }
 #login button {
-  margin: 10px;
+  margin: 10px 10px 10px 130px;
 }
 #register button {
   margin-left: 145px;

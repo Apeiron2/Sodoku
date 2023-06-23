@@ -5,7 +5,6 @@ document.getElementById("login").addEventListener("submit", function (event) {
   event.preventDefault();
   var username = document.getElementById("username").value;
   var password = document.getElementById("password").value;
-  var remember = document.getElementById("remember").value;
   fetch(`http://localhost:5000/login`, {
     method: "POST",
     headers: {
@@ -14,7 +13,6 @@ document.getElementById("login").addEventListener("submit", function (event) {
     body: JSON.stringify({
       username: username,
       password: password,
-      remember: remember,
     }),
   })
     .then((res) => {
