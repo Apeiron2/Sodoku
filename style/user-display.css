@@ -1,0 +1,23 @@
+.function {
+  display: inline-block;
+  vertical-align: top;
+  width: 400px;
+  height: 400px;
+  box-sizing: border-box;
+  border: 1px solid black;
+  padding: 20px;
+}
+.board {
+  display: inline-block;
+  vertical-align: top;
+  width: 400px;
+  height: 400px;
+  box-sizing: border-box;
+  border: 1px solid black;
+}
+#message::before {
+  content: "Thông báo: ";
+}
+#timer::before {
+  content: "Thời gian: ";
+}

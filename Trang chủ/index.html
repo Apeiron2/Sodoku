@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sodoku</title>
+  </head>
+  <body>
+    <main>
+      <!-- Thao tác người chơi -->
+      <div class="function">
+        <p id="message"></p>
+        <p id="timer"></p>
+        <div class="button">
+          <button onclick="start()">Bắt đầu</button>
+          <button onclick="check_puzzle()">Kiểm tra</button>
+        </div>
+      </div>
+      <!-- Phần bảng chơi sudoku -->
+      <div class="board"><table id="puzzle"></table></div>
+      <script src="./boardgame.js"></script>
+      <link rel="stylesheet" href="../style/style_board.css" />
+      <!--  -->
+      <link rel="stylesheet" href="../style/user-display.css" />
+    </main>
+  </body>
+</html>
