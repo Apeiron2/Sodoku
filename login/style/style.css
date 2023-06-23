@@ -3,7 +3,7 @@
   --login-color: #85aed6;
 }
 html {
-  background-image: url("./background.jpg");
+  background-image: url("../../style/img/login/background.jpg");
   background-size: cover;
   background-color: rgb(155, 180, 201);
 }
@@ -20,7 +20,7 @@ main {
   width: 70px;
 }
 .logo {
-  background-image: url("./logo.png");
+  background-image: url("../../style/img/login/logo.png");
   margin-left: 90px;
   margin-bottom: 20px;
 }
