@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+aside {
+  display: block;
+  background-color: #0072e3;
+  width: 20%;
+  height: 100vh;
+  float: left;
+}
+.navbar-brand {
+  display: block;
+  padding: 10px 20px;
+  width: 100%;
+}
+.navbar-brand img {
+  display: inline-block;
+  width: 30%;
+}
+.navbar-brand h1 {
+  display: inline-block;
+  font-size: xx-large;
+  color: white;
+}
+/* nav item */
+aside ul {
+  display: block;
+}
+.nav-item {
+  padding: 25px 25px;
+}
+.nav-item a {
+  text-decoration: none;
+  color: white;
+}
+.nav-item:hover {
+  background-color: white;
+}
+.nav-item:hover a {
+  color: #0072e3;
+}
+
+/* header */
+header {
+  display: block;
+  width: 80%;
+  height: 20%;
+  float: left;
+  border-bottom: 1px solid black;
+}
+#nav-btn {
+  display: none;
+}
+header label > i {
+  display: inline-block;
+  font-size: x-large;
+  padding: 10px;
+  color: gray;
+}
+header label {
+  display: block;
+  padding: 5px 10px;
+}
+#nav-btn:checked ~ aside {
+  display: none;
+}
+#nav-btn:checked ~ header {
+  width: 100%;
+}
